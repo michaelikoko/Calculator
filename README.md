@@ -1,6 +1,6 @@
 # Calculator
 
-A basic calculator made in React.
+A basic calculator made using React.
 The live project can be found [here](https://calculator-react-web.vercel.app/)
 
 
