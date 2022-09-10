@@ -2,6 +2,7 @@ import React from "react";
 import Toggle from "./Toggle";
 import Screen from "./Screen";
 import Buttons from "./Buttons";
+import Footer from "./Footer";
 
 export default function Calc ()
 {
@@ -85,6 +86,9 @@ export default function Calc ()
             <Toggle toggle={toggle} darkMode={darkMode} />
             <Screen darkMode={darkMode} screenState={screenState}/>
             <Buttons darkMode={darkMode} buttonInput={buttonInput}/>
+            <div className="fixed-bottom">
+                <Footer />
+            </div>
         </main>
     )
 }

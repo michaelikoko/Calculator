@@ -147,3 +147,12 @@ body {
     background-color: #374847;
     color: white;
 }
+
+.footer-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+.footer-icon:hover {
+    transform: scale(1.2);
+}
