@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Calculator frame styling */
+.calc-light, .calc-dark {
+    margin-top: 40px;
+    width: 17rem;
+    height: 25rem;
+    padding: 4px 22px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calc-light {
+    border: 1px solid #374847;
+    background-color: #CFFFFA;
+}
+
+.calc-dark {
+    background-color: #374847;
+}
+
+/* Toggle styling */
+.toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.toggle p {
+    font-size: 12px;
+}
+
+.toggle-slider-light, .toggle-slider-dark {
+    width: 2.5rem;
+    height: 1rem;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.toggle-slider-dark {
+    justify-content: flex-end;
+}
+
+.toggle-button {
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    background-color: #374847;
+}
+
+.toggle-light_text-light {
+    color: #374847;
+}
+
+.toggle-dark_text-light {
+    color: #898989;
+}
+
+.toggle-light_text-dark {
+    color: #898989;
+}
+
+.toggle-dark_text-dark {
+    color: #FFFFFF;
+}
+
+
+/* Screen styling */
+.screen-light, .screen-dark {
+    width: 14rem;
+    height: 4rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.screen-light {
+    background-color: #FFFFFF;
+}
+
+.screen-dark {
+    background-color: #CFFFFA;
+}
+
+.screen-text {
+    color: #374847;
+    font-size: 1.3rem;
+    margin-right: 8px;
+    text-overflow: clip;
+}
+
+/* Buttons styling */
+.buttons-light, .buttons-dark {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2.8em 2.8rem 2.8rem 2.8rem;
+    grid-column-gap: 15px;
+    grid-row-gap: 8px;
+}
+
+.button {
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 1px solid #374847;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.buttons-light .button{
+    background-color: white;
+    color: #374847;
+}
+
+.buttons-dark .button{
+    border: 1px solid #CFFFFA;
+    background-color: #374847;
+    color: white;
+}
